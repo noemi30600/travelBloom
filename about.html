@@ -14,11 +14,12 @@
 
             </ul>
 
-            <div class="search-box">
+            <form class="search-box" id="searchForm" onsubmit="return displayRecommend()">
                 <input type="text" id="conditionInput" placeholder="Enter a destination or keyword"> 
-                <button id='btnSearch'>Search</button>
-                <input type="reset" value="Clear" id="btnClear">
-            </div>
+                <button type='submit' id='btnSearch'>Search</button>
+                <button type="button" id="btnClear">Clear</button>
+            </form>  
+            
             </nav>
             <div class="about">
                 <h1> About Travel Bloom </h1>

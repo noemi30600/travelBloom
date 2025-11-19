@@ -14,25 +14,31 @@
 
             </ul>
 
-            <div class="search-box">
+            <form class="search-box" id="searchForm" onsubmit="return displayRecommend()">
                 <input type="text" id="conditionInput" placeholder="Enter a destination or keyword"> 
-                <button id='btnSearch'>Search</button>
-                <input type="reset" value="Clear" id="btnClear">
-            </div>
+                <button type='submit' id='btnSearch'>Search</button>
+                <button type="button" id="btnClear">Clear</button>
+            </form>            
+
             </nav>
             <div class="home">
+                <div>
                 <p class="welcome"> EXPLORE <br/>
                  DREAM     <br/>
                  DESTINATION </p>
 
-                 <p style="width: 40%; margin-left: 20px;">
+                 <p style="width: 50%; margin-left: 20px;">
                     Discover your next adventure with Travel Bloom! Whether you're seeking serene beaches, 
                     vibrant cities, or cultural landmarks, we've got you covered. Start your journey today 
                     and let us help you find the perfect destination tailored to your interests and preferences.
                  </p>
                  <br/>
                  <button class="book-btn" style="margin-left: 20px"> <a href="./contact.html" id="contact">Book Now </a> </button>
+                </div>
+                 
+                 <div id="recommendations" >
+                 </div>
             </div>
-
+        <script src="script.js"> </script>
     </body>
 </html>
