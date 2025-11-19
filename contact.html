@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        <title> Travel Bloom | About Us </title>
+    </head>
+    <body> 
+        <nav><img src="logo.png" class="navbar-logo">
+            <ul>
+              <li><a href="./travel_recommendation.html" id="home">Home </a></li>
+              <li><a href="./about.html" id="about">About Us </a></li>
+              <li><a href="./contact.html" id="contact">Contact Us </a></li>
+
+            </ul>
+
+            <div class="search-box">
+                <input type="text" id="conditionInput" placeholder="Enter a destination or keyword"> 
+                <button id='btnSearch'>Search</button>
+                <input type="reset" value="Clear" id="btnClear">
+            </div>
+            </nav>
+
+
+            <div class="contact">
+                <div>
+                    <h1> Contact Us </h1>
+                    <p style=" margin-left: 20px;">
+                     Get in touch with the Travel Bloom team!</p>
+                </div>
+            
+                <form action="#" method="post" class="contact-form">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+                    
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+                    
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter your message" required></textarea><br><br>
+                    
+                    <input id="subutn" type="submit" value="Submit">
+                </form>
+                
+            </div>
+
+    </body>
+</html>
