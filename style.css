@@ -172,15 +172,22 @@ a {
   margin-top: 20px;
 }
 
+#recommendations h3{
+  color: #1f4a57;
+  margin-left: 10px;
+}
+
 .card {
   background: rgba(255, 255, 255, 0.4);
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  margin-top: 0;
+  margin-top: 10px;
+  margin-left: 30px;
   padding-left: 10px;
   padding-right: 10px;
+  color: white;
 }
 
 .card img {
@@ -189,4 +196,14 @@ a {
   object-fit: cover; /* Crops image to fill space */
   object-position: center; /* Centers the image */
   display: block;
+}
+
+.greeting{
+  background-color: #44a2be7b;
+  color: #ffffff;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        <title> Travel Bloom | Home </title>
+    </head>
+    <body> 
+        <nav><img src="logo.png" class="navbar-logo">
+            <ul>
+              <li><a href="./travel_recommendation.html" id="home">Home </a></li>
+              <li><a href="./about.html" id="about">About Us </a></li>
+              <li><a href="./contact.html" id="contact">Contact Us </a></li>
+
+            </ul>
+
+            <form class="search-box" id="searchForm" onsubmit="return displayRecommend()">
+                <input type="text" id="conditionInput" placeholder="Enter a destination or keyword"> 
+                <button type='submit' id='btnSearch'>Search</button>
+                <button type="button" id="btnClear">Clear</button>
+            </form>            
+
+            </nav>
+            <div class="greeting"> 
+                <center> <h1> Welcome to Travel Bloom! </h1> </center> 
+
+                 <div id="recommendations" > </div>
+            </div>
+        <script src="script.js"> </script>
+    </body>
+</html>
